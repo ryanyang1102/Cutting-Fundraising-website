@@ -1,0 +1,49 @@
+// section product
+.product_btn .btn {
+  letter-spacing: .8px;
+  @media(min-width: 992px){
+    letter-spacing: 0;
+  }
+}
+.main-img {
+  border-radius: 44px;
+}
+.progress {
+  height: 16px;
+}
+.tag-icons img {
+  width: 20px;
+  height: 20px;
+  @media(min-width: 992px){
+    width: 24px;
+    height: 24px;
+  }
+}
+
+//content-faq
+.question-box {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// content-process
+.card_img {
+  height: 100%;
+  width: auto;
+}
+
+
+aside {
+  @media(min-width: 992px){
+    top: 121px;
+    height: calc(100vh - 121px);
+    overflow-y: scroll;
+  }
+}
+.content {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}

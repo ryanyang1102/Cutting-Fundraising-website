@@ -1,0 +1,24 @@
+.nav-tabs {
+  border: none;
+  .nav-link {
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: $darkGray;
+    &:hover,
+    &:focus {
+      font-family: 'Noto Sans TC', sans-serif;
+      font-weight: 700;
+      border-bottom: 2px solid transparent;
+    }
+  }
+
+  .nav-link.active,
+  .nav-item.show .nav-link {
+    color: $darkGray;
+    border: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid $warning;
+  }
+}

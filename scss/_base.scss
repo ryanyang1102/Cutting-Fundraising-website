@@ -1,0 +1,29 @@
+img{
+  max-width: 100%;
+  height: auto;
+}
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 16px;
+  color: $darkGray;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media(min-width: 768px){
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

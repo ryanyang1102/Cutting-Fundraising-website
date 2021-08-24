@@ -1,0 +1,16 @@
+.btn-warning {
+  color: $darkGray;
+  &:hover {
+    background: $danger;
+    border-color: $danger;
+    color: $white;
+  }
+}
+
+.btn-outline-lightGray {
+  &:hover {
+    background: $warning;
+    border-color: $warning;
+    color: $darkGray;
+  }
+}
