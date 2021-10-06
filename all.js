@@ -71,3 +71,10 @@ window.onscroll = function () {
     );
   });
 })();
+
+let a = document.querySelectorAll("a");
+a.forEach((item) => {
+  item.addEventListener("click", function (e) {
+    e.preventDefault();
+  });
+});
